@@ -123,6 +123,14 @@ button {
 	border-radius: 15px;
 }
 
+.footer {
+	display: flex;
+	justify-content: center;
+	background-color: #1f2937;
+	color: #e5e7eb;
+	padding: 30px;
+}
+
 .card-text {
 	text-align: center;
 }
@@ -147,4 +155,44 @@ button {
 	font-size: 24px;
 	font-weight: 700;
 	text-align: right;
+}
+
+.cta {
+	background-color: #f9faf8;
+	display: flex;
+}
+
+.cta-text {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 60%;
+	background-color: #3882f6;
+	color: #f9faf8;
+	border-radius: 8px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.cta-col-1 {
+	flex-direction: column;
+	max-width: 75%;
+}
+
+.cta-col-2 {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 24%;
+	align-content: center;
+}
+
+.b2 {
+	border: #f9faf8 solid 4px;
+	height: fit-content;
+	border-radius: 5px;
 }
